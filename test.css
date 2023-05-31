@@ -1,0 +1,286 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: red;
+}
+li{
+    list-style: none;
+}
+ul li{
+    list-style: none;
+}
+
+.w{
+    width: 1220px;
+    height: 100%;
+    margin : 0 auto
+    /* background-color: pink; */
+}
+
+.head{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    margin-top: 30px;
+}
+.head .logo{
+    margin-left: 0px;
+    float: left;
+}
+.bell{
+    margin-right: 100px;
+    float: right;
+    line-height: 50px;
+}
+.setting{
+    margin-right: 50px;
+    float: right;
+    line-height: 50px;
+}
+.logo-out{
+    float: right;
+    margin-right: 0px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245,248,249);
+}
+
+
+.foot{
+    width: 100%;
+    height: 255px;
+    background-color: rgb(32,33,36);
+}
+.nav{
+    height: 173px;
+    /* background-color: lightblue; */
+}
+.nav .title{
+    padding-top: 70px;
+    font-size: 30px;
+}
+.nav_bar{
+    float: right;
+}
+.nav_bar_left{
+    float: left;
+    font-size: 15px;
+    padding-top: 15px;
+    color: rgb(170, 173, 174);
+}
+.nav_bar_right ul li{
+    padding-left: 31px;
+    padding-top: 15px;
+    float: left;
+    
+}
+.nav_bar_right ul li a:hover{
+    border-bottom: 2px solid gray;
+}
+
+
+.photo{
+    height: 290px;
+    /* background-color: blue; */
+}
+.photo-view{
+    background-color:#fff;
+    float: left;
+    width: 600px;
+    height: 290px;
+}
+.photo-request .title{
+    border-bottom: 1px solid black;
+}
+.photo-request .text {
+    float: left;
+    font-size: 18px;
+    line-height: 110px;
+    padding-left: 50px;
+}
+.photo-request .viewAll{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+    padding-right: 50px;
+}
+
+
+.focus{
+    overflow: hidden;
+    position: relative;
+    width: 580px;
+    height: 270px;
+    /* background-color: blue; */
+    margin: 10px auto;
+}
+.focus ul  {
+    
+    /* float: left; */
+    /* margin-right: 0px; */
+    position:absolute;
+    width: 500%;
+
+}
+
+.focus ul li img{
+    width: 580px;
+    height: 270px;
+    float: left;
+    
+}
+.arrow-l,
+.arrow-r
+{
+    /* display: none; */
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto 0;  
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    z-index: 2;
+}
+.arrow-r{
+    right:0;
+}
+.focus .circle{
+    position: absolute;
+    bottom: 5px;
+    left: 30%;
+    background:  rgba(255,255,255,.3);
+}
+.focus .circle li{
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    float: left;
+    border-radius: 50%;
+    margin: 3px;
+}
+.focus .circle .current{
+    background-color: pink;
+}
+.photo-request{
+    background-color: #fff;
+    float: right;
+    width: 600px;
+    height: 290px;
+    
+}
+.photo-request .title{
+    height: 110px;
+    background-color: #fff;
+    position: relative;
+}
+.photo-request .content{
+    height: 180px;
+    /* background-color: black; */
+}
+/* .photo-request .username,.time{
+    float: left;
+} */
+/* .content_title{
+    float: left;
+} */
+.content_title{
+    /* background-color: skyblue; */
+    padding-top: 30px;
+    height: 50px;
+
+}
+/* .content_content{
+    background-color: blue;
+} */
+.time ,.status ,.username{
+    float: left;
+    font-weight: 600;
+}
+.time ,.li1{
+    padding-left: 50px;
+}
+.username {
+    padding-left: 70px;
+}
+.status{
+    padding-left: 224px;
+}
+.li2{
+    padding-left: 85px;
+}
+.li3{
+    padding-left: 230px;
+}
+
+.content_content_content ul  li{
+    padding-top: 10px;
+    float: left;
+}
+
+
+
+.qxchart{
+    margin-top: 20px;
+    height: 350px;
+    background-color: #fff;
+}
+.echart{
+    height: 380px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.bingEchart,.zhuEchart{
+    width: 600px;
+    height: 380px;
+
+}
+.bingEchart{
+    float: left;
+    /* background-color: red; */
+}
+.zhuEchart{
+    float: right;
+    /* background-color: blue; */
+}
+.foot{
+    float: left;
+}
+
+.foot_logo{
+    float: left;
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+.foot_content dl{
+    padding-left: 130px;
+    padding-top: 66px;
+    float: left;
+}
+.foot_content dl dd{
+    padding-top: 14px;
+    font-size: 14px;
+}
+.foot_content dl dd a{
+    color: #fff;
+}
+
+
